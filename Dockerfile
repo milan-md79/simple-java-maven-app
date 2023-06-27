@@ -15,4 +15,4 @@ RUN mvn clean test
 EXPOSE 8080
 
 # Specify the command to run when the container starts
-CMD ["java", "-jar", "target/your-app.jar"]
+CMD ["java", "-jar", "-cp" "target/classes", "com.mycompany.app.app"]
