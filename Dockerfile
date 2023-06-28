@@ -1,5 +1,5 @@
 # Use a base image with Maven and Java pre-installed
-FROM maven:3.8.4-openjdk-11-slim
+FROM maven
 
 # Set the working directory inside the container
 WORKDIR /app
